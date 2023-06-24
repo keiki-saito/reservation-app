@@ -51,3 +51,6 @@ src/app/*.component.min.css.map
 src/app/**/*.component.css.map
 src/app/**/*.component.min.css
 src/app/**/*.component.min.css.map
+
+# config
+/server/config/dev.js
