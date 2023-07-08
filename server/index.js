@@ -6,6 +6,7 @@ const productRoutes = require("./routes/products");
 const path = require("path");
 
 mongoose.connect(config.DB_URI).then(() => {
+  // 開発環境のみ実行
   if (process.env.NODE_ENV !== "production") {
     const sampleDb = new SampleDb();
     // sampleDb.initDb();
